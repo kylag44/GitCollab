@@ -23,3 +23,16 @@ class ViewController: UIViewController {
 
 }
 
+struct Color {
+  var color: UIColor
+  var description: String
+}
+
+struct ModelManager {
+  init() {
+    let colorsArray: [Color]
+    colorsArray = [Color.init(color: UIColor.blue, description: "blue"), Color.init(color: UIColor.red, description: "red"), Color.init(color: UIColor.brown, description: "brown"), Color.init(color: UIColor.purple, description: "purple"), Color.init(color: UIColor.yellow, description: "yello"), Color.init(color: UIColor.orange, description: "orange"), Color.init(color: UIColor.cyan, description: "cyan"), Color.init(color: UIColor.darkGray, description: "dark grey"), Color.init(color: UIColor.green, description: "green"), Color.init(color: UIColor.lightGray, description: "light gray")]
+  }
+}
+
+
